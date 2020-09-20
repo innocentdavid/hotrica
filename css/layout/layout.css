@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.d-f-jc-c-ai-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jc-a {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.jc-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section {
+  margin-bottom: 10vh;
+}
+
+.sec-header {
+  text-align: center;
+  margin-bottom: 8vh;
+}
+
+.sec-header h1 {
+  font-weight: 700;
+}
+
+.go-up {
+  background: red;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 2;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.bible-passage2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bible-passage2 marquee {
+  color: #df0707;
+  font-weight: 700;
+}
+
+@media (max-width: 766px) {
+  .bible-passage2 {
+    display: none !important;
+  }
+}
+
+.alert-dismissible {
+  display: none;
+  position: fixed;
+  margin: auto;
+  z-index: 999999;
+}
+
+top {
+  display: block;
+  height: 8vh;
+  background: #eeeded;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 13vh;
+  background: white;
+  z-index: 2;
+  -webkit-box-shadow: -1px 16px 16px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 16px 16px -2px rgba(0, 0, 0, 0.75);
+}
+
+.logo-text {
+  border-top: 1px solid #EE7A7A;
+  border-bottom: 1px solid #EE7A7A;
+}
+
+.logo-text a {
+  color: #df0707;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1 rem;
+  margin: 0 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: black !important;
+}
+
+nav ul li:hover {
+  color: #df0707;
+}
+
+nav ul li a:hover {
+  color: #df0707 !important;
+}
+
+/* navbar */
+/*# sourceMappingURL=layout.css.map */

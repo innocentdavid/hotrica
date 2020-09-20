@@ -1,0 +1,139 @@
+$base-color: rgb(223, 7, 7);
+
+header {
+    position: relative;
+    height: 79vh;
+  }
+  .header {
+    position: absolute;
+    top: 21vh;
+    left: -1px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 102%;
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    h1 {
+      font-weight: 700;
+    }
+    hr {
+      background: white;
+    }
+  }
+  
+  .header-btn {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  
+    .services,
+    .join-us {
+      cursor: pointer;
+      padding: 0.5rem;
+      width: 8rem;
+      background: $base-color;
+      border: 1px solid $base-color;
+      border-radius: 30px;
+    }
+    .services:hover,
+    .join-us:hover {
+      background: black;
+      color: white;
+    }
+  }
+  
+  .w-word {
+    padding: 2rem;
+  }
+  
+  @media (max-width: 767px) {
+    .header-text {
+      padding: 2%;
+  
+      h6 {
+        font-size: 0.8rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      h3 {
+        font-size: 1rem;
+      }
+      hr {
+        margin: 0;
+      }
+    }
+  }
+  
+  // header
+  
+  .next-event {
+    height: 13vh;
+    background: black;
+    color: white;
+    margin-bottom: 0.5rem;
+  
+    h3{
+      font-size: 1.2rem;
+    }
+  }
+  // next event
+  .wlc img{
+    margin-left: 5%;
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+  }
+  @media (min-width:767px){
+      .next-event h3{
+          font-size: 2rem;
+      }
+    .wlc .row {
+      padding: 0 12%;
+      margin-top: 2rem;
+      height: 60vh;
+      overflow: hidden;
+    }
+  }
+  // wlc
+  
+  .l-sermons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    a {
+      color: black;
+    }
+    a:hover {
+      color: $base-color;
+    }
+  
+    img{
+      box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    }
+  }
+  @media (max-width:766px){
+    .l-sermons{
+      grid-template-columns: 1fr;
+
+      .m-3{
+        margin-left: -5px!important;
+        margin-right: 0!important;
+      }
+    }
+  }
+  // l-sermons
+  
+@media (max-width:766px){
+  .up-coming-event .up-img{
+    margin: 5px 0!important;
+  }
+
+  .up-coming-event .up-i span{
+    display: block;
+    text-align: left;
+  }
+}
+  // up-coming-event

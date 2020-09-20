@@ -1,0 +1,133 @@
+$base-color: rgb(223, 7, 7);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.d-f-jc-c-ai-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jc-a {
+  justify-content: space-around;
+}
+.jc-b {
+  justify-content: space-between;
+}
+
+section {
+  margin-bottom: 10vh;
+}
+
+.sec-header {
+  text-align: center;
+  margin-bottom: 8vh;
+
+  h1 {
+    font-weight: 700;
+  }
+}
+
+.go-up {
+  background: red;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 2;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.bible-passage2{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  marquee{
+    color: $base-color;
+    font-weight: 700;
+  }
+}
+@media (max-width:766px){
+  .bible-passage2{
+    display: none!important;
+  }
+}
+
+.alert-dismissible{
+  display: none;
+  position: fixed;
+  margin: auto;
+  z-index: 999999;
+}
+
+top {
+  display: block;
+  height: 8vh;
+  background: rgb(238, 237, 237);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 13vh;
+  background: white;
+  z-index: 2;
+  box-shadow: -1px 16px 16px -2px rgba(0, 0, 0, 0.75);
+}
+
+.logo-text {
+  border-top: 1px solid #EE7A7A;
+  border-bottom: 1px solid #EE7A7A;
+}
+
+.logo-text a {
+  color: $base-color;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1 rem;
+  margin: 0 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  a {
+    color: black !important;
+  }
+}
+
+nav ul li:hover {
+  color: $base-color;
+}
+nav ul li a:hover {
+  color: $base-color !important;
+}
+
+/* navbar */
