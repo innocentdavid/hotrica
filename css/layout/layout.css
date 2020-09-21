@@ -115,7 +115,7 @@ nav {
           box-shadow: -1px 16px 16px -2px rgba(0, 0, 0, 0.75);
 }
 
-.logo-text {
+.logo-text a {
   border-top: 1px solid #EE7A7A;
   border-bottom: 1px solid #EE7A7A;
 }
@@ -145,4 +145,16 @@ nav ul li a:hover {
 }
 
 /* navbar */
+.footer {
+  padding: 0 5%;
+}
+
+@media (min-width: 766px) {
+  .footer {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+}
 /*# sourceMappingURL=layout.css.map */

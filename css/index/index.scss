@@ -136,4 +136,68 @@ header {
     text-align: left;
   }
 }
-  // up-coming-event
+// up-coming-event
+
+
+.newsletter{
+  background: $base-color;
+  color: white;
+
+  form input{
+    border: 1px solid!important;
+  }
+}
+.main-footer{
+  background: rgb(29,11,11);
+  padding: 2% 7%;
+  padding-top: 5rem;
+
+  a{
+    color: rgb(149,149,149)!important;
+  }
+  a:hover{
+    color: rgb(185, 25, 25)!important;
+  }
+
+  .logo-bottom-a{
+    color: white!important;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+  }
+  
+  .logo-bottom-a:hover{
+    color: rgb(207, 205, 205)!important;
+    text-decoration: none;
+  }
+}
+.footer-bottom{
+  background: rgb(18,6,6);
+  color: rgb(149,149,149);
+  padding: 0 5%;
+  padding-right: 8%;
+
+  a{
+    color: red;
+  }
+  a:hover{
+    color: rgb(119, 4, 4);
+  }
+}
+@media (min-width:766px){
+.newsletter{
+  height: 15vh;
+  form input{
+    border: none!important;
+  }
+}
+// newsletter
+.main-footer{
+  height: 56vh;
+}
+// main-footer
+.footer-bottom{
+  height: 8vh;
+  margin-bottom: 7vh;
+}
+// footer-bottom
+}
